@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/uploads', express.static('uploads')); // serve uploaded images
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://alphanewprojectlc:CEoMY7QsrBIJokk3@aizeldb.nuoy3.mongodb.net/MohammedBill', {
+mongoose.connect('mongodb+srv://alphanewprojectlc:CEoMY7QsrBIJokk3@mohammed.nuoy3.mongodb.net/mohammed', {
 
   useNewUrlParser: true,
   useUnifiedTopology: true,
