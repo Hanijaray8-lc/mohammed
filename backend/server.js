@@ -21,8 +21,11 @@ mongoose.connect('mongodb+srv://alphanewprojectlc:CEoMY7QsrBIJokk3@aizeldb.nuoy3
 
 // Routes
 const InvoiceRoutes = require('./routes/InvoiceRoutes');
+const creditRoutes = require('./routes/creditroute');
 
 app.use('/api/invoice', InvoiceRoutes);
+app.use('/api/credit', creditRoutes);
+
 
 
 // Start server
